@@ -28,6 +28,16 @@ This should result in something like:
 
 The Port used here needs to be the query port.
 
+## `delserver`
+delserver removes recently added servers from the bots inventory.
+The command is structured like the following:
+`!delserver {tag}`
+
+See !addserver and !servers command as well.
+
+This should result in something like:
+`!delserver mygameserver`
+
 ## `servers`
 This is a simple command which returns a list of servers configured. The response just contains the tags of the servers.
 
