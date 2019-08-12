@@ -1,0 +1,15 @@
+{
+  "general": {
+    "token": "some_discord_token_here",
+    "ident": "!",
+    "monitoring_interval": 30
+  },
+  "template_defaults": {
+    "status_offline": "Server {{.Whois.Address.IP}}:{{.Whois.Address.Port}} is offline!",
+    "status_online": "Server {{.Game.Info.server_name}} is up, {{.Game.Info.player_count}}/{{.Game.Info.max_players}} players online!",
+    "monitoring_offline": "Server {{.Whois.Address.IP}}:{{.Whois.Address.Port}} went offline! Panic!!111!",
+    "monitoring_online": "Server named {{.Game.Info.server_name}} is running smooth again. :)"
+  },
+  "guilds": [
+  ]
+}
