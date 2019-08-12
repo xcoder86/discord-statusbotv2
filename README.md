@@ -88,3 +88,13 @@ Just some formatting ideas, feel free to create a PR if you have some ideas so w
 
 Command: `!format mygameserver status online Server tagged {{tag}} is up {{ if and (gt .Game.Info.player_count 5.0) (le .Game.Info.player_count 9.0) }} but nearly full! {{ else if eq .Game.Info.player_count 10.0 }} but we're full {{ end }}`
 Result: Server tagged mygameserver is up( | but nearly full! | but we're full )
+
+
+## self-hosted
+Just download the binary you need (windows = discord-statusbot.exe; linux = discord-statusbot) and the config example.
+Replace the "token" with the discord token provided here: https://discordapp.com/developers/applications/
+Place the config file anywhere and start the bot running the binary and defining the config file with "-config".
+Example:
+`./discord-statusbot -config ~/.config/discord.json`
+
+And thats it. For more detailed output if you have to debug something for example you can provide "-vvv" for running the bot in a verbose mode.
