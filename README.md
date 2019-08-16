@@ -91,6 +91,8 @@ Result: Server tagged mygameserver is up( | but nearly full! | but we're full )
 
 
 ## self-hosted
+Automated Builds - Download: https://cdn.movinto.net/discord-statusbot/ (will get moved to gitub asap)
+
 Just download the binary you need (windows = discord-statusbot.exe; linux = discord-statusbot) and the config example.
 Replace the "token" with the discord token provided here: https://discordapp.com/developers/applications/
 Place the config file anywhere and start the bot running the binary and defining the config file with "-config".
