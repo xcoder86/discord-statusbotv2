@@ -1,5 +1,7 @@
 # Discord StatusBot
 
+Automated Builds - Download: https://cdn.movinto.net/discord-statusbot/ (will get moved to gitub asap)
+
 This project provides a simple bot which checks the status of any gameserver. Its written in go and for abstracting the discord api the library [discordgo](https://github.com/bwmarrin/discordgo) is used. For fetching the information about the gameservers the  **[query.li](https://query.li/doc/)** API is used.
 If you want to know which games are supported please check out the documentation available there.
 In general, every steam game is supported using the "game" steam.
