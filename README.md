@@ -1,3 +1,5 @@
+!!! PLEASE UPDATE YOUR SOURCE / HOSTED PACKAGE - LINK NOT WORKING - THANKS !!!!
+
 # Discord StatusBot
 
 Automated Builds - Download: https://cdn.movinto.net/discord-statusbot/ (will get moved to gitub asap)
